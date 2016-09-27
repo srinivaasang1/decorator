@@ -1,0 +1,376 @@
+@media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
+
+@media screen and (max-width:480px){
+.title{font-size:2em; color:#FF0000}
+}
+
+@font-face {
+    font-family: 'wedding'; /*a name to be used later*/
+    src: url('../assets/fonts/wedding-chardonnay.ttf'); /*URL to font*/
+}
+
+.title{
+  font-size: 134px;
+  color: white;
+  font-family: wedding;
+}
+.navbar-nav li{
+  color: #000000;
+  font-weight: 400;;
+  font-family: sans-serif;
+  letter-spacing:0.24em;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #000000;
+}
+
+.navbar-default{
+  background-color:#FFFFFF;
+  border: none;
+}
+
+.furn-container{
+  height: 679px;
+  width:100%;
+  background-color: #002846;
+  margin-top: 20px;
+}
+
+.page-beige{
+  background: #e0dcd4;
+  color: #002846;
+  height: 679px;
+  width:100%;
+}
+.page-gold{
+  background: #ce9f52;
+  color: #002846;
+  height: 679px;
+  width:100%;
+}
+
+.page-design{
+  background-image: url("../assets/img/outer-building.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:1358px;
+  margin-top: -28px;
+}
+
+#home .logo{
+    top: 15%;
+    left: 50%;
+    width: 25%;
+    margin-left: -12.5%;
+    min-width: 150px;
+    position: absolute;
+    display: block;
+}
+
+#home-intro .building{
+    display: block;
+}
+
+#home-intro-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#paragraph .para{
+    font-weight: 100;
+    font-family: sans-serif;;
+    margin-right: 15%;
+    margin-top: 18%;
+    letter-spacing:0.1em;
+}
+
+#neighbour .title{
+    font-weight: 200;
+    font-family: sans-serif;;
+    margin-top: 3%;
+    letter-spacing:0.2em;
+    text-align: center;
+    clear:both;
+}
+
+#neighbour .para{
+    font-weight: 100;
+    font-family: sans-serif;;
+    letter-spacing:0.1em;
+    text-align: center;
+}
+
+#design .title{
+    font-weight: 200;
+    font-family: sans-serif;;
+    margin-top: 3%;
+    letter-spacing:0.3em;
+    text-align: center;
+    clear:both;
+    color: white;
+    font-size: 4em;
+}
+
+#design .para{
+    font-weight: 100;
+    font-family: sans-serif;;
+    letter-spacing:0.3em;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+
+
+}
+
+#design-awards .bookshelf{
+    width: 185px;
+    min-width: 100px;
+    display: block;
+    margin-left: 25%;
+    float: left;
+    height:273px;
+}
+
+#design-awards #paragraph .para{
+    font-weight: 100;
+    font-family: sans-serif;;
+    margin-right: 15%;
+    letter-spacing:0.1em;
+    margin-left: 5%;
+    margin-top: 15px;
+
+}
+
+#design-awards .title{
+    font-weight: 200;
+    font-family: sans-serif;;
+    margin-top: 3%;
+    letter-spacing:0.1em;
+    text-align: center;
+    clear:both;
+    color: #002846;
+    font-size: 2em;
+}
+
+#final .title{
+    font-weight: 200;
+    font-family: sans-serif;;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    letter-spacing:0.2em;
+    text-align: center;
+    clear:both;
+    color: #e0dcd4;
+}
+
+#final .paragraph{
+    font-weight: 100;
+    font-family: sans-serif;;
+    letter-spacing:0.1em;
+    text-align: justify;
+}
+
+ .piano{
+    height:273px;
+    width: 185px;
+    bottom: -130px;
+    right: 0;
+    float: right;
+    position: relative;
+}
+
+
+.slick-slider{
+  width:90%;
+  text-align: center;
+margin: auto;
+}
+
+.slick{
+  width:400px;
+  height:400px;
+}
+
+.logo-img{
+  width: 150px;
+    height: 130px;
+}
+
+.circ-img{
+  width: 180px;
+    height: 170px;
+}
+
+.slick-slide {
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+
+
+.comp-title{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.height-percent1{
+  height: 100%;
+}
+
+.height-percent2{
+  height: 50%;
+}
+
+.height-percent{
+  height: 33.33%
+}
+
+.flexbox {
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	flex-flow: column;
+}
+
+.textContainer{
+  line-height: 400px;
+}
+.textContainer div{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+.vcenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.vcenter1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin:auto;
+  justify-content: center; /* Optional, to align inner items*/
+}
+
+.col-ht{
+  height:100%;
+}
+
+.vcenterc{
+}
+
+.vcenter > [class^="col-"],
+.vcenter > [class*=" col-"] {
+  justify-content: center; /* Optional, to align inner items
+                              horizontally inside the column */
+}
+
+.vcenter > [class^="col-"] > div,
+.vcenter > [class*=" col-"] > div {
+  /* flex: 1; */
+  flex-grow: 1;
+}
+
+.vcentercol {
+  display: flex;
+  flex-direction: row;
+}
+
+.vcentercol > [class^="col-"],
+.vcentercol > [class*=" col-"] {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Optional, to align inner items
+                              horizontally inside the column */
+}
+
+.vcentercol > [class^="col-"] > div,
+.vcentercol > [class*=" col-"] > div {
+  /* flex: 1; */
+  flex-grow: 1;
+}
+
+.parent {
+    display: table;
+    table-layout: fixed;
+}
+
+.child {
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    float: none;
+}
+
+.redBg{
+  background-color: #660033;
+  color:white;
+  font-family: sans-serif;
+}
+
+.share{
+  font-weight: 100;
+}
+
+.share-percent{
+  font-weight: 200;
+}
+
+.war{
+    color: white;
+    background-color: #3b5999;
+    padding: 5px;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.war-google{
+    color: white;
+    background-color: #DA4936;
+    padding: 5px;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.war-amazon{
+    color: white;
+    background-color: #FE9900;
+    padding: 5px;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.war-apple{
+    color: white;
+    background-color:#5C5C5C;
+    padding: 5px;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+}
