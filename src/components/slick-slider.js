@@ -13,10 +13,10 @@ export default class ReactSlickDemo extends Component {
     return (
       <div className="sliderContainer">
         <Slider {...settings}>
-        <div><img className="img-circle circ-img" src='../../assets/img/sarabeths.jpg' /></div>
-        <div><img className="img-circle circ-img" src='../../assets/img/penelope.jpg' /></div>
-        <div><img className="img-circle circ-img" src='../../assets/img/park-ave.jpg' /></div>
-        <div><img className="img-circle circ-img" src='../../assets/img/new-york.jpg' /></div>
+        <div><img className="img-circle circ-img" src='../decorator/assets/img/sarabeths.jpg' /></div>
+        <div><img className="img-circle circ-img" src='../decorator/assets/img/penelope.jpg' /></div>
+        <div><img className="img-circle circ-img" src='../decorator/assets/img/park-ave.jpg' /></div>
+        <div><img className="img-circle circ-img" src='../decorator/assets/img/new-york.jpg' /></div>
         </Slider>
       </div>
     );

@@ -9,7 +9,7 @@ class DesignAward extends Component{
           <div className="row">
             <div className="col-md-3"></div>
             <div className="col-md-3">
-              <h1><img className="img-responsive bookshelf" src="../../assets/img/bookshelf.png"/></h1>
+              <h1><img className="img-responsive bookshelf" src="../decorator/assets/img/bookshelf.png"/></h1>
             </div>
             <div className="col-md-3">
               <span id="paragraph">

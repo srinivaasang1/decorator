@@ -9,7 +9,7 @@ class HomeIntro extends Component{
         <div className="row">
           <div className="col-md-3"></div>
           <div className="col-md-3">
-            <h1><img className="img-responsive building" src="../../assets/img/building.png"/></h1>
+            <h1><img className="img-responsive building" src="../decorator/assets/img/building.png"/></h1>
           </div>
           <div className="col-md-3">
             <span id="paragraph">

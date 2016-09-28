@@ -20,7 +20,7 @@ class Final extends Component{
             </div>
           </div>
         </section>
-        <img className="img-responsive piano" src="../../assets/img/piano.png"/>
+        <img className="img-responsive piano" src="../decorator/assets/img/piano.png"/>
       </div>
     );
   }
